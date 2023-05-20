@@ -1,0 +1,53 @@
+.ui{background:url(img/7.jpg);
+background-size:cover;
+margin:0;
+padding:0;
+font-family:sans-serif;}
+
+
+.ll{width:100px ;height:100px;
+border-radius:50%;
+position:absolute;
+top:-50px;
+left:118px;}
+p{position:relative;
+left:-15%;
+top:20px;
+color:white;
+}
+
+
+form{position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+width:350px;
+height:420px;
+background:rgba(0,0,0,.5);
+border-radius:15px;
+box sizing:border-box;}
+
+
+
+input[type="text"],[type="password"]{
+position:apsolute;
+outline:none;
+border:none;
+width:250px;
+height:35px;
+border-bottom:2px solid orange;
+background:none;
+badding:5px;
+}
+.mm{color:white;}
+input[ value="login"]{ 
+position:relative;
+top:50px;
+left:center;
+width:130px; 
+height:35px;
+border-radius:8px;
+background:orange;
+border:none;
+color:white;
+font-size:20px;}
